@@ -1,8 +1,26 @@
 aid: vetsource
 name: VetSource
-description: 'VetSource is a company surfaced as a portfolio company of bain-capital-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'VetSource is a veterinary technology and pharmacy company founded in 2008 that delivers
+  a suite of pharmacy, technology, and business services for the pet health industry. Its offerings
+  span home-delivery prescription management (an online pharmacy and prescription workflow that lets
+  veterinary practices prescribe and fulfill medications with compliance and revenue tools), the
+  Vet2Pet client-engagement platform (a custom-branded app connecting practices with pet owners for
+  communication, reminders, loyalty, and telehealth), and data/analytics services that provide industry
+  benchmarking and practice performance insights. VetSource serves veterinary practices and pet owners
+  across North America. No public developer API, developer portal, or API documentation is published;
+  this profile captures the company identity and probed domain-security posture.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://vetsource.com/wp-content/uploads/2022/11/social_logo.png
 url: https://raw.githubusercontent.com/api-evangelist/vetsource/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Veterinary
+- Pharmacy
+- Pet Health
+- Practice Management
+- Client Engagement
+- Data Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: https://vetsource.com/
+- type: About
+  url: https://vetsource.com/about-us/
+- type: Blog
+  url: https://vetsource.com/blog/
+- type: Support
+  url: https://vetsource.com/contact-us/
+- type: Login
+  url: https://vetsource.com/log-in/
+- type: TermsOfService
+  url: https://assets.vetsource.com/m/4b45c75df5bb0014/original/Pet-Owner-Terms-of-Use.pdf
+- type: PrivacyPolicy
+  url: https://assets.vetsource.com/m/4333987cd01e2eaf/original/VFoC-Privacy-Policy.pdf
+- type: DomainSecurity
+  url: security/vetsource-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
