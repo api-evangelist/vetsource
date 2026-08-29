@@ -9,6 +9,17 @@ description: 'VetSource is a veterinary technology and pharmacy company founded 
   benchmarking and practice performance insights. VetSource serves veterinary practices and pet owners
   across North America. No public developer API, developer portal, or API documentation is published;
   this profile captures the company identity and probed domain-security posture.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
